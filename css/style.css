@@ -1,0 +1,176 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: cursive;
+  font-size: 24px;
+  font-weight: bolder;
+}
+nav {
+  width: 100%;
+  height: 10vh;
+  background-color: rgb(71, 70, 70);
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  list-style: none;
+  padding: 15px;
+  color: white;
+}
+nav ul a {
+  color: white;
+  padding-left: 10px;
+  text-decoration: none;
+}
+
+/*--------------------- PAGES ------------------*/
+.my-page {
+  width: 100%;
+  height: 80vh;
+}
+/*-------------------- Home */
+.home-page {
+  background-image: url(../images/Home-back.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.admin-page {
+  background-image: url(../images/admin-back.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.welcome-admin {
+  width: 300px;
+  height: 300px;
+  margin: 0px auto;
+  margin-left: 70%;
+  background-color: rgb(134, 233, 237);
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.welcome-admin h1 {
+  color: red;
+  font-size: 48px;
+}
+.logout-btn {
+  position: absolute;
+  width: 150px;
+  background-color: red;
+  border-radius: 50%;
+  box-shadow: 10px 12px 15px rgb(228, 136, 136);
+  right: 10px;
+  top:100px;
+}
+.register-page {
+  background-image: url(../images/register.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.login-page {
+  background-image: url(../images/login-back.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.login-page .login-card {
+  margin: 42px auto;
+  width: 230px;
+  height: 250px;
+  background-color: rgb(176, 203, 240);
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+  align-items: center;
+}
+
+.login-page .login-form {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 25px;
+}
+.login-form input {
+  width: 100%;
+  font-size: 18px;
+  padding: 6px;
+}
+
+.register-page .register-card {
+  margin: 42px auto;
+  width: 670px;
+  height: 400px;
+  background-color: rgb(27, 164, 120);
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.register-page .register-form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+  align-items: center;
+  align-items: center;
+}
+
+.register-form input {
+  width: 400px;
+  font-size: 18px;
+  padding: 6px;
+}
+button {
+  width: 40%;
+}
+
+img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  animation: image infinite 4s;
+}
+h1 {
+  font-size: 32px;
+}
+
+@keyframes image {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* ------------------------FOOTER--------------------- */
+
+footer {
+  width: 100%;
+  height: 10vh;
+  background-color: rgb(71, 70, 70);
+}
+
+.footer-main {
+  padding: 20px 0px;
+  display: flex;
+  justify-content: center;
+  column-gap: 20px;
+  font-size: 20px;
+  color: white;
+}
+
+i {
+  cursor: pointer;
+}
